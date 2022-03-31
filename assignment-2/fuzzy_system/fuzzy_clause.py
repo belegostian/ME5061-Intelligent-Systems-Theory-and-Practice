@@ -8,7 +8,7 @@ from .fuzzy_variable_output import FuzzyVariableOutput
 class FuzzyClause:
     """
     A fuzzy clause of the type 'variable is fset' used in fuzzy IF ... THEN ... rules
-    clauses can be antecedent (IF part) or consequent (THEN part)  ++
+    clauses can be antecedent (IF part) or consequent (THEN part)  ++++
     """
     def __init__(self,
                  var: Union[FuzzyVariable, FuzzyVariableInput, FuzzyVariableOutput],
